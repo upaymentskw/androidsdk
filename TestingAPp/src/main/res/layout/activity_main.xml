@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+   >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTExt"
+                android:layout_width="match_parent"
+                android:text="Testing App"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        <EditText
+            android:id="@+id/tvMerchantId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/merchantId"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/userName"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/prompt_password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvApiKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/prompt_apiKey"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvOrderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/orderId"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/Price"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvCurrency_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/currencyCode"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvSuccessUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/successUrl"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:text="https://example.com/success.html"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvErrorUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/errorUrl"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:text="https://example.com/error.html"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvTestMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/testMode"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/customerName"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvCustomerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/customerEmail"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvCustomerMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/customerMobile"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvPaymentGateway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/paymentGateway"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvWhiteLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/whiteLabel"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvProductTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/productTitle"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/productName"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/productPrice"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/productQuatity"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvReference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/reference"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <EditText
+            android:id="@+id/tvNotifyUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/notifuUrl"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="64dp"
+            android:text="@string/submit"
+            />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

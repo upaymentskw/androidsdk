@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Demo Test Application</string>
+    <string name="merchantId">Merchant Id</string>
+    <string name="userName">UserName</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_apiKey">API KEY</string>
+    <string name="orderId">Order ID</string>
+    <string name="Price">Total Price</string>
+    <string name="currencyCode">Currency Code KWD,SAR,USD,BHD, In Sandbox NA</string>
+    <string name="successUrl">Success Url</string>
+    <string name="errorUrl">Error Url</string>
+    <string name="testMode">Test Mode 0 or 1</string>
+    <string name="customerName">Customer Name </string>
+    <string name="customerEmail">Customer Email </string>
+    <string name="customerMobile">Customer Mobile  </string>
+    <string name="paymentGateway">knet or cc or SandBox NA</string>
+    <string name="whiteLabel">WhiteLabel true or false in Sandbox NA</string>
+    <string name="productName">ProductName  In Sandboc NA</string>
+    <string name="productPrice">Product Price ex max 3 decimal point, In Sandbox NA</string>
+    <string name="productTitle">Product Title</string>
+    <string name="productQuatity">Product Quantity,  In Sandbox NA</string>
+    <string name="reference">Reference, In Sandbox NA</string>
+    <string name="notifuUrl">NotifyUrl</string>
+    <string name="submit">Submit</string>
+</resources>
