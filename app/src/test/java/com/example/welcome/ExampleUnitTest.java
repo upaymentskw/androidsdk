@@ -1,4 +1,4 @@
-package com.upayments;
+package com.example.welcome;
 
 import org.junit.Test;
 
