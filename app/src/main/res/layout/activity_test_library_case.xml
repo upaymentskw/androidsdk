@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/tvNonWhiteLabel"
+        android:background="@color/green"
+        android:text="Test Cases Non white Label"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:id="@+id/tvWhiteLabel"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Test Cases white Label"></TextView>
+  </LinearLayout>
+
+
+  <TextView
+      android:id="@+id/tvChargeAPI"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:background="#808080"
+      android:textColor="@color/white"
+      android:gravity="center"
+      android:text="Charge API(Buy Single Product)"></TextView>
+
+  <TextView
+      android:id="@+id/tvChargeAPI2"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Charge API(Buy Multi Product)"></TextView>
+
+  <TextView
+      android:id="@+id/tvInvoice"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Generate Invoice"></TextView>
+
+  <TextView
+      android:id="@+id/tvSingleRefund"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Single Refund"></TextView>
+
+  <TextView
+      android:id="@+id/tvMultiRefund"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Multi Refund"></TextView>
+
+  <TextView
+      android:id="@+id/tvSingleDeleteRefund"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Single Delete Refund"></TextView>
+
+  <TextView
+      android:id="@+id/tvMultiDeleteRefund"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Multi Delete Refund "></TextView>
+
+  <TextView
+      android:id="@+id/tvCreateToken"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Create Token"></TextView>
+
+  <TextView
+      android:id="@+id/tvAddCard"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Add Card"></TextView>
+
+  <TextView
+      android:id="@+id/tvRetrieveCard"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:text="Retrive Card"></TextView>
+
+  <TextView
+      android:id="@+id/tvGetCustomerToken"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/white"
+      android:background="#808080"
+      android:gravity="center"
+      android:visibility="gone"
+      android:text="Customer Unique Token"></TextView>
+
+
+
+
+
+</LinearLayout>
