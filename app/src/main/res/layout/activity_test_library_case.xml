@@ -103,15 +103,7 @@
       android:gravity="center"
       android:text="Multi Delete Refund "></TextView>
 
-  <TextView
-      android:id="@+id/tvCreateToken"
-      android:layout_width="match_parent"
-      android:layout_height="40dp"
-      android:layout_marginTop="20dp"
-      android:textColor="@color/white"
-      android:background="#808080"
-      android:gravity="center"
-      android:text="Create Token"></TextView>
+
 
   <TextView
       android:id="@+id/tvAddCard"
