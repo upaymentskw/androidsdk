@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/bluedark"
+    app:cardBackgroundColor="@color/bluedark">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ProgressBar
+            android:indeterminateTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"/>
+        <com.in10mServiceMan.ui.viewmodel.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/please_wait_"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
