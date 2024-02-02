@@ -17,9 +17,8 @@ import com.upayment.upaymentsdk.activity.PostUpayData
 import com.upayment.upaymentsdk.track.CreateInvoiceResponse
 import com.upayment.upaymentsdk.track.UpaymentGateway
 import com.upayment.upaymentsdk.track.card.addcard.ResponseAddCard
-import com.upayment.upaymentsdk.track.card.customer
 import com.upayment.upaymentsdk.track.card.retrive.ResponseRetriveCard
-
+import com.upayment.upaymentsdk.track.card.addCardcustomer
 import com.upayment.upaymentsdk.track.charge.upaymentGatewayEvent3
 import com.upayment.upaymentsdk.track.refund.PayloadData
 import com.upayment.upaymentsdk.track.refund.PostDeleteSingleRefundData
@@ -551,12 +550,7 @@ class TestKotlin : AppCompatActivity(), UPaymentCallBack, OnClickListener {
         }
     }
 
-    private fun callGnerateToken() {
-
-        UpaymentGateway.getInstance().getCustomerUniqueToken(this,  is_whitelabled_status)
-
-
-    }
+ 
 
     private fun callRetriveCard() {
 
@@ -565,18 +559,18 @@ class TestKotlin : AppCompatActivity(), UPaymentCallBack, OnClickListener {
     }
 
     private fun callAddCard() {
-        val customer = customer {
-            card {
-                number = "5123450000000008"
-                expiry {
-                    month = "02"
-                    year = "39"
+         val customer = addCardcustomer {
+                card {
+                    number = "5123450000000008"
+                    expiry {
+                        month = "02"
+                        year = "39"
+                    }
+                    securityCode = "100"
+                    nameOnCard = "Dharmendra Kakde"
                 }
-                securityCode = "100"
-                nameOnCard = "Dharmendra Kakde"
             }
-        }
-        UpaymentGateway.getInstance().trackAddCards(customer!!,this,is_whitelabled_status)
+            UpaymentGateway.getInstance().trackAddCards(customer!!,this,is_whitelabled_status)
 
     }
 
