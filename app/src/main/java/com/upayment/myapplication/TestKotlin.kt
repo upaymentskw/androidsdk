@@ -71,7 +71,6 @@ class TestKotlin : AppCompatActivity(), UPaymentCallBack, OnClickListener {
         tvRetrieveCard=  findViewById(R.id.tvRetrieveCard)
         tvNonWhiteLabel = findViewById(R.id.tvNonWhiteLabel)
         tvWhiteLabel = findViewById(R.id.tvWhiteLabel)
-        tvGetCustomerToken = findViewById(R.id.tvGetCustomerToken)
 
         tvChargeAPI.setOnClickListener(this)
         tvChargeAPI2.setOnClickListener(this)
@@ -84,7 +83,6 @@ class TestKotlin : AppCompatActivity(), UPaymentCallBack, OnClickListener {
         tvRetrieveCard.setOnClickListener(this)
         tvNonWhiteLabel.setOnClickListener(this)
         tvWhiteLabel.setOnClickListener(this)
-        tvGetCustomerToken.setOnClickListener (this)
 
 
 
